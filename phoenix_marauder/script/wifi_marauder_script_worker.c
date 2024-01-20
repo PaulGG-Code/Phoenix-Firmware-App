@@ -1,7 +1,7 @@
 #include "../wifi_marauder_app_i.h"
 #include "wifi_marauder_script_worker.h"
 
-WifiMarauderScriptWorker* wifi_marauder_script_worker_alloc(WifiMarauderUart* uart) {
+WifiMarauderScriptWorker* wifi_marauder_script_worker_alloc() {
     WifiMarauderScriptWorker* worker = malloc(sizeof(WifiMarauderScriptWorker));
     if(worker == NULL) {
         return NULL;
@@ -9,7 +9,6 @@ WifiMarauderScriptWorker* wifi_marauder_script_worker_alloc(WifiMarauderUart* ua
     worker->callback_start = NULL;
     worker->callback_stage = NULL;
     worker->worker_thread = NULL;
-    worker->uart = uart;
     worker->is_running = false;
     return worker;
 }

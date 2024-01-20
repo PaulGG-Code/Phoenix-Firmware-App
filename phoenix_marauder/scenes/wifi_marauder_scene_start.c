@@ -74,7 +74,7 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      {"wardrive", "wardrive -s", "btwardrive", "btwardrive -c"},
      NO_ARGS,
      FOCUS_CONSOLE_END,
-     SHOW_STOPSCAN_TIP},*/ // No GPS for Wardrive on Mayhem
+     SHOW_STOPSCAN_TIP},*/ // No GPS for Wardrive on Phoneix
     {"Evil Portal",
      {"start", "set html"},
      2,
@@ -131,7 +131,7 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      {"led -s", "led -p"},
      INPUT_ARGS,
      FOCUS_CONSOLE_END,
-     NO_TIP},*/ // No led on mayhem
+     NO_TIP},*/ // No led on phoenix
     /*{"GPS Data",
      {"stream", "fix", "sats", "lat", "lon", "alt", "date"},
      7,
@@ -144,7 +144,7 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
       "gps -g date"},
      NO_ARGS,
      FOCUS_CONSOLE_END,
-     NO_TIP},*/ // No GPS on Mayhem
+     NO_TIP},*/ // No GPS on Phoenix
 	{"Camera",
      {"photo", "flashlight"},
      2,

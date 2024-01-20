@@ -20,14 +20,12 @@
 #include <gui/modules/submenu.h>
 #include <gui/modules/variable_item_list.h>
 #include <gui/modules/widget.h>
-#include <gui/modules/text_input.h>
+#include "wifi_marauder_text_input.h"
 
-#include <mayhem_marauder_icons.h>
+#include <phoenix_marauder_icons.h>
 #include <storage/storage.h>
 #include <lib/toolbox/path.h>
 #include <dialogs/dialogs.h>
-
-#include <assets_icons.h>
 
 #define NUM_MENU_ITEMS (22)
 
@@ -61,7 +59,7 @@ struct WifiMarauderApp {
     FuriString* text_box_store;
     size_t text_box_store_strlen;
     TextBox* text_box;
-    TextInput* text_input;
+    WIFI_TextInput* text_input;
     Storage* storage;
     File* capture_file;
     File* log_file;
