@@ -39,7 +39,7 @@ void uart_terminal_scene_console_output_on_enter(void* context) {
         if(app->show_stopscan_tip ||
            0 == strncmp("help", app->selected_tx_string, strlen("help"))) {
             const char* help_msg =
-                "Morse Flasher for\nMayhem Fin\n\nBased on UART terminal by\ncool4uma, which is a\nmodified WiFi Marauder\ncompanion by 0xchocolate\n\n";
+                "Morse Flasher for\nPhoenix Fin\n\nBased on UART terminal by\ncool4uma, which is a\nmodified WiFi Marauder\ncompanion by 0xchocolate\n\n";
             furi_string_cat_str(app->text_box_store, help_msg);
             app->text_box_store_strlen += strlen(help_msg);
         }

@@ -74,7 +74,7 @@ const WifiMarauderItem items[NUM_MENU_ITEMS] = {
      {"wardrive", "wardrive -s", "btwardrive", "btwardrive -c"},
      NO_ARGS,
      FOCUS_CONSOLE_END,
-     SHOW_STOPSCAN_TIP},*/ // No GPS for Wardrive on Phoneix
+     SHOW_STOPSCAN_TIP},*/ // No GPS for Wardrive on Phoenix
     {"Evil Portal",
      {"start", "set html"},
      2,
